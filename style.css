@@ -1,0 +1,82 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #9d8e8e;
+    margin: 110;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #9f8282;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#search_container {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    padding: 5px;
+    font-size: 16px;
+    flex: 1;
+}
+
+#search_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #36b33b;
+    color: #644141;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+#hotelList {
+    margin-top: 20px;
+}
+
+.hotel {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hotel h2 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.hotel p {
+    margin: 5px 0;
+    color: #666;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #7aa0c8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #6ac3de;
+}
